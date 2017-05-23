@@ -14,6 +14,8 @@ public class Main {
         System.out.println(findComplement(1));
     }
 
+    //Time complexity only deals with looping 32 bits which is constant.
+    //Therefore Worst Case Runtime = O(1).
     public static int findComplement(int num){
         int max = 0, num_shifts = 0;
         //find highest bit basically same as calculating as Integer.highestOneBit(num)
